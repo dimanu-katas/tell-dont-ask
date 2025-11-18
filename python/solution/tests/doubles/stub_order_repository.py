@@ -1,4 +1,4 @@
-from tell_dont_ask.solution.src.repository.order_repository import OrderRepository
+from python.solution.src.repository.order_repository import OrderRepository
 
 
 class StubOrderRepository(OrderRepository):

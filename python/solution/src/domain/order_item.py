@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 
-from tell_dont_ask.solution.src.domain.product import Product
+from python.solution.src.domain.product import Product
 
 
 @dataclass

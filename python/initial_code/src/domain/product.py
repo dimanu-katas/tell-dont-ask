@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 
-from tell_dont_ask.initial_code.src.domain.category import Category
+from python.initial_code.src.domain.category import Category
 
 
 @dataclass

@@ -1,15 +1,15 @@
 import pytest
 
-from tell_dont_ask.solution.src.domain.category import Category
-from tell_dont_ask.solution.src.domain.order import Order
-from tell_dont_ask.solution.src.domain.order_item import OrderItem
-from tell_dont_ask.solution.src.domain.order_status import OrderStatus
-from tell_dont_ask.solution.src.domain.product import Product
-from tell_dont_ask.solution.src.use_case.exceptions import UnknownProductException
-from tell_dont_ask.solution.src.use_case.order_creation_use_case import OrderCreationUseCase
-from tell_dont_ask.solution.src.use_case.sell_item_request import SellItemsRequest, SellItemRequest
-from tell_dont_ask.solution.tests.doubles.in_memory_product_catalog import InMemoryProductCatalog
-from tell_dont_ask.solution.tests.doubles.stub_order_repository import StubOrderRepository
+from python.solution.src.domain.category import Category
+from python.solution.src.domain.order import Order
+from python.solution.src.domain.order_item import OrderItem
+from python.solution.src.domain.order_status import OrderStatus
+from python.solution.src.domain.product import Product
+from python.solution.src.use_case.exceptions import UnknownProductException
+from python.solution.src.use_case.order_creation_use_case import OrderCreationUseCase
+from python.solution.src.use_case.sell_item_request import SellItemsRequest, SellItemRequest
+from python.solution.tests.doubles.in_memory_product_catalog import InMemoryProductCatalog
+from python.solution.tests.doubles.stub_order_repository import StubOrderRepository
 
 
 class TestOrderCreationUseCase:

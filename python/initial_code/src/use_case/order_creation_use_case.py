@@ -1,10 +1,10 @@
-from tell_dont_ask.initial_code.src.domain.order import Order
-from tell_dont_ask.initial_code.src.domain.order_item import OrderItem
-from tell_dont_ask.initial_code.src.domain.order_status import OrderStatus
-from tell_dont_ask.initial_code.src.repository.order_repository import OrderRepository
-from tell_dont_ask.initial_code.src.repository.product_catalog import ProductCatalog
-from tell_dont_ask.initial_code.src.use_case.exceptions import UnknownProductException
-from tell_dont_ask.initial_code.src.use_case.sell_item_request import SellItemsRequest
+from python.initial_code.src.domain.order import Order
+from python.initial_code.src.domain.order_item import OrderItem
+from python.initial_code.src.domain.order_status import OrderStatus
+from python.initial_code.src.repository.order_repository import OrderRepository
+from python.initial_code.src.repository.product_catalog import ProductCatalog
+from python.initial_code.src.use_case.exceptions import UnknownProductException
+from python.initial_code.src.use_case.sell_item_request import SellItemsRequest
 
 
 class OrderCreationUseCase:

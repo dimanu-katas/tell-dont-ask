@@ -1,8 +1,8 @@
-from tell_dont_ask.initial_code.src.domain.order_status import OrderStatus
-from tell_dont_ask.initial_code.src.repository.order_repository import OrderRepository
-from tell_dont_ask.initial_code.src.service.shipment_service import ShipmentService
-from tell_dont_ask.initial_code.src.use_case.exceptions import OrderCannotBeShippedException, OrderCannotBeShippedTwiceException
-from tell_dont_ask.initial_code.src.use_case.order_shipment_request import OrderShipmentRequest
+from python.initial_code.src.domain.order_status import OrderStatus
+from python.initial_code.src.repository.order_repository import OrderRepository
+from python.initial_code.src.service.shipment_service import ShipmentService
+from python.initial_code.src.use_case.exceptions import OrderCannotBeShippedException, OrderCannotBeShippedTwiceException
+from python.initial_code.src.use_case.order_shipment_request import OrderShipmentRequest
 
 
 class OrderShipmentUseCase:

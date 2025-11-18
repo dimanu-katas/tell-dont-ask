@@ -1,9 +1,9 @@
-from tell_dont_ask.solution.src.domain.order import Order
-from tell_dont_ask.solution.src.domain.order_item import OrderItem
-from tell_dont_ask.solution.src.repository.order_repository import OrderRepository
-from tell_dont_ask.solution.src.repository.product_catalog import ProductCatalog
-from tell_dont_ask.solution.src.use_case.exceptions import UnknownProductException
-from tell_dont_ask.solution.src.use_case.sell_item_request import SellItemsRequest
+from python.solution.src.domain.order import Order
+from python.solution.src.domain.order_item import OrderItem
+from python.solution.src.repository.order_repository import OrderRepository
+from python.solution.src.repository.product_catalog import ProductCatalog
+from python.solution.src.use_case.exceptions import UnknownProductException
+from python.solution.src.use_case.sell_item_request import SellItemsRequest
 
 
 class OrderCreationUseCase:

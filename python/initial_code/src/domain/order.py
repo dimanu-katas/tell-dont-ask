@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 
-from tell_dont_ask.initial_code.src.domain.order_item import OrderItem
-from tell_dont_ask.initial_code.src.domain.order_status import OrderStatus
+from python.initial_code.src.domain.order_item import OrderItem
+from python.initial_code.src.domain.order_status import OrderStatus
 
 
 @dataclass

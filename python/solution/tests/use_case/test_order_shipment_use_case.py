@@ -1,10 +1,10 @@
 import pytest
 
-from tell_dont_ask.solution.src.use_case.exceptions import OrderCannotBeShippedException, OrderCannotBeShippedTwiceException
-from tell_dont_ask.solution.src.use_case.order_shipment_request import OrderShipmentRequest
-from tell_dont_ask.solution.src.use_case.order_shipment_use_case import OrderShipmentUseCase
-from tell_dont_ask.solution.tests.doubles.stub_order_repository import StubOrderRepository
-from tell_dont_ask.solution.tests.doubles.stub_shipment_service import StubShipmentService
+from python.solution.src.use_case.exceptions import OrderCannotBeShippedException, OrderCannotBeShippedTwiceException
+from python.solution.src.use_case.order_shipment_request import OrderShipmentRequest
+from python.solution.src.use_case.order_shipment_use_case import OrderShipmentUseCase
+from python.solution.tests.doubles.stub_order_repository import StubOrderRepository
+from python.solution.tests.doubles.stub_shipment_service import StubShipmentService
 
 
 class TestOrderShipmentUseCase:

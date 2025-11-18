@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-from tell_dont_ask.initial_code.src.domain.order import Order
+from python.initial_code.src.domain.order import Order
 
 
 class OrderRepository(ABC):

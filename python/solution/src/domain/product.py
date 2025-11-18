@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 
-from tell_dont_ask.solution.src.domain.category import Category
+from python.solution.src.domain.category import Category
 
 PRECISION = 2
 

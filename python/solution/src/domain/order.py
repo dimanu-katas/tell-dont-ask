@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 
-from tell_dont_ask.solution.src.domain.order_item import OrderItem
-from tell_dont_ask.solution.src.domain.order_status import OrderStatus
+from python.solution.src.domain.order_item import OrderItem
+from python.solution.src.domain.order_status import OrderStatus
 
 
 @dataclass
