@@ -1,8 +1,8 @@
-from tell_dont_ask.initial_code.src.domain.order_status import OrderStatus
-from tell_dont_ask.initial_code.src.repository.order_repository import OrderRepository
-from tell_dont_ask.initial_code.src.use_case.exceptions import ShippedOrdersCannotBeChangedException, RejectedOrderCannotBeApprovedException, \
+from python.initial_code.src.domain.order_status import OrderStatus
+from python.initial_code.src.repository.order_repository import OrderRepository
+from python.initial_code.src.use_case.exceptions import ShippedOrdersCannotBeChangedException, RejectedOrderCannotBeApprovedException, \
     ApprovedOrderCannotBeRejectedException
-from tell_dont_ask.initial_code.src.use_case.order_approval_request import OrderApprovalRequest
+from python.initial_code.src.use_case.order_approval_request import OrderApprovalRequest
 
 
 class OrderApprovalUseCase:

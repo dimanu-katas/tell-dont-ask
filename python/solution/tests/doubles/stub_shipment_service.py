@@ -1,4 +1,4 @@
-from tell_dont_ask.solution.src.service.shipment_service import ShipmentService
+from python.solution.src.service.shipment_service import ShipmentService
 
 
 class StubShipmentService(ShipmentService):

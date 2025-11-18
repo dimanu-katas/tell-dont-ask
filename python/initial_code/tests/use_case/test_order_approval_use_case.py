@@ -1,12 +1,12 @@
 import pytest
 
-from tell_dont_ask.initial_code.src.domain.order import Order
-from tell_dont_ask.initial_code.src.domain.order_status import OrderStatus
-from tell_dont_ask.initial_code.src.use_case.exceptions import RejectedOrderCannotBeApprovedException, ApprovedOrderCannotBeRejectedException, \
+from python.initial_code.src.domain.order import Order
+from python.initial_code.src.domain.order_status import OrderStatus
+from python.initial_code.src.use_case.exceptions import RejectedOrderCannotBeApprovedException, ApprovedOrderCannotBeRejectedException, \
     ShippedOrdersCannotBeChangedException
-from tell_dont_ask.initial_code.src.use_case.order_approval_request import OrderApprovalRequest
-from tell_dont_ask.initial_code.src.use_case.order_approval_use_case import OrderApprovalUseCase
-from tell_dont_ask.initial_code.tests.doubles.stub_order_repository import StubOrderRepository
+from python.initial_code.src.use_case.order_approval_request import OrderApprovalRequest
+from python.initial_code.src.use_case.order_approval_use_case import OrderApprovalUseCase
+from python.initial_code.tests.doubles.stub_order_repository import StubOrderRepository
 
 
 class TestOrderApprovalUseCase:

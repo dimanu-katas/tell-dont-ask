@@ -1,8 +1,8 @@
-from tell_dont_ask.solution.src.domain.order import Order
-from tell_dont_ask.solution.src.repository.order_repository import OrderRepository
-from tell_dont_ask.solution.src.use_case.exceptions import ShippedOrdersCannotBeChangedException, RejectedOrderCannotBeApprovedException, \
+from python.solution.src.domain.order import Order
+from python.solution.src.repository.order_repository import OrderRepository
+from python.solution.src.use_case.exceptions import ShippedOrdersCannotBeChangedException, RejectedOrderCannotBeApprovedException, \
     ApprovedOrderCannotBeRejectedException
-from tell_dont_ask.solution.src.use_case.order_approval_request import OrderApprovalRequest
+from python.solution.src.use_case.order_approval_request import OrderApprovalRequest
 
 
 class OrderApprovalUseCase:

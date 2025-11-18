@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-from tell_dont_ask.initial_code.src.domain.product import Product
+from python.initial_code.src.domain.product import Product
 
 
 class ProductCatalog(ABC):

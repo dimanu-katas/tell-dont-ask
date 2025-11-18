@@ -1,4 +1,4 @@
-from tell_dont_ask.initial_code.src.repository.order_repository import OrderRepository
+from python.initial_code.src.repository.order_repository import OrderRepository
 
 
 class StubOrderRepository(OrderRepository):

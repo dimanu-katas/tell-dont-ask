@@ -1,8 +1,8 @@
-from tell_dont_ask.solution.src.domain.order import Order
-from tell_dont_ask.solution.src.repository.order_repository import OrderRepository
-from tell_dont_ask.solution.src.service.shipment_service import ShipmentService
-from tell_dont_ask.solution.src.use_case.exceptions import OrderCannotBeShippedException, OrderCannotBeShippedTwiceException
-from tell_dont_ask.solution.src.use_case.order_shipment_request import OrderShipmentRequest
+from python.solution.src.domain.order import Order
+from python.solution.src.repository.order_repository import OrderRepository
+from python.solution.src.service.shipment_service import ShipmentService
+from python.solution.src.use_case.exceptions import OrderCannotBeShippedException, OrderCannotBeShippedTwiceException
+from python.solution.src.use_case.order_shipment_request import OrderShipmentRequest
 
 
 class OrderShipmentUseCase:
